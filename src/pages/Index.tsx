@@ -68,7 +68,7 @@ const Index = () => {
             onClick={() => navigate("home")}
             className="font-cormorant text-xl font-semibold tracking-wide text-foreground hover:text-gold transition-colors"
           >
-            Право & Недвижимость
+            Консультация по земельным отношениям
           </button>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -133,7 +133,7 @@ const Index = () => {
               <div className="max-w-6xl mx-auto px-6 py-24 w-full">
                 <div className="max-w-3xl animate-fade-up">
                   <p className="text-gold font-ibm text-sm tracking-[0.2em] uppercase mb-6">
-                    Юридические услуги в сфере недвижимости
+                    Консультация по земельным отношениям
                   </p>
                   <h1 className="font-cormorant text-5xl md:text-7xl font-light text-white leading-[1.1] mb-8">
                     Ваша сделка
@@ -141,8 +141,7 @@ const Index = () => {
                     <em>под защитой</em>
                   </h1>
                   <p className="text-white/60 text-lg font-light leading-relaxed max-w-xl mb-12">
-                    Профессиональное сопровождение сделок с недвижимостью.
-                    Юридическая чистота каждого шага — от проверки документов до регистрации права.
+                    Помощь в покупке и аренде земельного участка. Поиск земельного участка под ваши задачи. Профессиональная консультация на каждом этапе.
                   </p>
                   <div className="flex flex-wrap gap-4">
                     <button
@@ -402,7 +401,7 @@ const Index = () => {
 
       <footer className="border-t border-border py-8 mt-16">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="font-cormorant text-lg font-medium">Право & Недвижимость</p>
+          <p className="font-cormorant text-lg font-medium">Консультация по земельным отношениям</p>
           <div className="flex gap-6">
             {NAV_ITEMS.map((item) => (
               <button
