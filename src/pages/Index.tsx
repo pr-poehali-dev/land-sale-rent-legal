@@ -153,27 +153,6 @@ const Index = () => {
               <div className="absolute right-16 top-24 bottom-24 w-px bg-gold/30" />
             </section>
 
-            {/* Stats */}
-            <section className="border-b border-border">
-              <div className="max-w-6xl mx-auto px-6">
-                <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-border">
-                  {[
-                    { value: "15+", label: "лет практики" },
-                    { value: "800+", label: "сделок проведено" },
-                    { value: "98%", label: "успешных дел" },
-                    { value: "0", label: "случаев мошенничества" },
-                  ].map((stat) => (
-                    <div key={stat.label} className="px-8 py-10 text-center">
-                      <div className="font-cormorant text-4xl font-semibold text-foreground mb-2">
-                        {stat.value}
-                      </div>
-                      <div className="text-muted-foreground text-sm">{stat.label}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </section>
-
             {/* Brief services */}
             <section className="py-24">
               <div className="max-w-6xl mx-auto px-6">
